@@ -1,4 +1,4 @@
-Votos y data por mesa:
+[
 {
  distrito: {
   id: {
@@ -83,5 +83,5 @@ Regiones destacadas:
    
   }
  }
-}
+}]
 
