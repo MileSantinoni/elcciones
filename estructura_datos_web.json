@@ -1,0 +1,87 @@
+Votos y data por mesa:
+{
+ distrito: {
+  id: {
+   cargo_id: {
+    porcentaje: {
+     partido_id: number
+    } 
+   }
+   seccionprovincial: {
+    id: {
+     cargo_id: {
+      porcentaje: {
+       partido_id: number
+      } 
+     }
+     seccion: {
+      id: {
+       cargo_id: {
+        variaciones_std: {
+         partido_id: number
+        }
+        porcentaje: {
+         partido_id: number
+        } 
+       }
+       circuito: {
+        id: {
+         cargo_id: {
+          variaciones_std: {
+           partido_id: number
+          }
+          porcentaje: {
+           partido_id: number
+          } 
+         }
+         mesa: {
+          mesa_id: {
+           cargo_id: {
+            partido_id: {
+             votos: number,
+             variaciones_std: number
+             porcentaje: number 
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   },
+   seccionprovincial: {
+    id: {
+     seccion: {
+     
+     }
+    }
+   },
+    ...
+  },
+  id: {
+   seccionprovincial: {
+      
+   }
+  },
+  ...
+ }
+}
+
+Regiones destacadas:
+{
+ bajos: {
+  partido_id: [
+   [distrito, seccion_prov, seccion, circuito, mesa], (puede terminar antes de mesa)
+   [distrito, seccion_prov, seccion, circuito],
+   [distrito, seccion_prov, seccion]
+  ]
+ },
+ altos: {
+  partido_id: {
+   
+  }
+ }
+}
+
