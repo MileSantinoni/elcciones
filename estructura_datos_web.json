@@ -1,55 +1,58 @@
-
 [{
- "distrito": {
-  "id": {
-   "cargo_id": {
-    "porcentaje": {
-     "partido_id": 
-    }, 
-   }
-   "seccionprovincial": {
-    "id": {
-     "cargo_id": {
-      "porcentaje": {
-       "partido_id": 
-      }, 
-     }
-     "seccion": {
-      "id": {
-       "cargo_id": {
-        "variaciones_std": {
-         "partido_id":
-        }
-        "porcentaje": {
-         "partido_id": 
-        }, 
-       }
-       "circuito": {
+    "distrito": {
         "id": {
-         "cargo_id": {
-          "variaciones_std": {
-           "partido_id":
-          }
-          "porcentaje": {
-           "partido_id": 
-          }, 
-         }}
-          "mesa": {
-          "mesa_id": {
-           "cargo_id": {
-            "partido_id": {
-             "votos":{ 
-             "variaciones_std": 
-             "porcentaje":
+            "cargo_id": {
+                "porcentaje": {
+                    "partido_id": "valor1"
+                }
             },
-           }
-          }
-         }
-        },
-       },
-      }
-     }
-    },
-   }
-}}}]
+            "seccionprovincial": {
+                "id": {
+                    "cargo_id": {
+                        "porcentaje": {
+                            "partido_id": "valor2"
+                        }
+                    },
+                    "seccion": {
+                        "id": {
+                            "cargo_id": {
+                                "variaciones_std": {
+                                    "partido_id": "valor3"
+                                },
+                                "porcentaje": {
+                                    "partido_id": "valor4"
+                                }
+                            },
+                            "circuito": {
+                                "id": {
+                                    "cargo_id": {
+                                        "variaciones_std": {
+                                            "partido_id": "valor5"
+                                        },
+                                        "porcentaje": {
+                                            "partido_id": "valor6"
+                                        }
+                                    }
+                                },
+                                "mesa": {
+                                    "mesa_id": {
+                                        "cargo_id": {
+                                            "partido_id": {
+                                                "votos": {
+                                                    "variaciones_std": "valor7",
+                                                    "porcentaje": "valor8"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}]
+
 
