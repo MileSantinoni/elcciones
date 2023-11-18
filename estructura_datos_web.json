@@ -4,25 +4,25 @@
   "id": {
    "cargo_id": {
     "porcentaje": {
-     "partido_id": number
-    } 
+     "partido_id": 
+    }, 
    }
    "seccionprovincial": {
     "id": {
      "cargo_id": {
       "porcentaje": {
-       "partido_id": number
-      } 
+       "partido_id": 
+      }, 
      }
      "seccion": {
       "id": {
        "cargo_id": {
         "variaciones_std": {
-         "partido_id": number
+         "partido_id":
         }
         "porcentaje": {
-         "partido_id": number
-        } 
+         "partido_id": 
+        }, 
        }
        "circuito": {
         "id": {
@@ -32,24 +32,24 @@
           }
           "porcentaje": {
            "partido_id": number
-          } 
-         }
-         "mesa": {
+          }, 
+         }}
+          "mesa": {
           "mesa_id": {
            "cargo_id": {
             "partido_id": {
-             "votos": number,
-             "variaciones_std": number
-             "porcentaje": number 
-            }
+             "votos":{ 
+             "variaciones_std": 
+             "porcentaje":
+            },
            }
           }
          }
-        }
-       }
+        },
+       },
       }
      }
-    }
+    },
    }
-}]
+}}}}}}]
 
