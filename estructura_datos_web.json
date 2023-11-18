@@ -1,5 +1,5 @@
 
-{
+[{
  distrito: {
   id: {
    cargo_id: {
@@ -83,5 +83,5 @@ Regiones destacadas:
    
   }
  }
-}
+}]
 
